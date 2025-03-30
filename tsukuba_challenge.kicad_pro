@@ -338,6 +338,10 @@
     [
       "38ab94c1-3455-4061-8471-40bae2451452",
       "EMS"
+    ],
+    [
+      "9c1fd94d-8d77-4c45-be6e-46f605b5b044",
+      "CAN_Transceiver"
     ]
   ],
   "text_variables": {}

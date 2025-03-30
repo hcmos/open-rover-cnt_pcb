@@ -713,6 +713,46 @@
         )
       )
     )
+    (symbol "power:PWR_FLAG" (power) (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "#FLG" (at 0 1.905 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "PWR_FLAG" (at 0 3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "flag power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Special symbol for telling ERC where power comes from" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "PWR_FLAG_0_0"
+        (pin power_out line (at 0 0 90) (length 0)
+          (name "pwr" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+      (symbol "PWR_FLAG_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 1.27)
+            (xy -1.016 1.905)
+            (xy 0 2.54)
+            (xy 1.016 1.905)
+            (xy 0 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+    )
     (symbol "power:VDD" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -893,23 +933,20 @@
   (no_connect (at 95.25 113.03) (uuid 0922df14-edbc-4880-ae04-e987e23121a9))
   (no_connect (at 95.25 123.19) (uuid 2589aebc-9547-420b-b107-79643f0e8946))
   (no_connect (at 128.27 95.25) (uuid 288252c3-ff1a-4206-add8-0f95468d8c2c))
-  (no_connect (at 95.25 128.27) (uuid 36d4e4c9-d220-4467-8a7c-b436f58c07b6))
   (no_connect (at 128.27 113.03) (uuid 3c881c8d-f097-4792-921a-e2ae5518c6db))
   (no_connect (at 128.27 90.17) (uuid 3d47084d-4415-4f42-8262-8c3bb369b5ba))
   (no_connect (at 95.25 105.41) (uuid 4c127b17-81d4-4be4-a2cf-0a3e22c4981c))
   (no_connect (at 95.25 125.73) (uuid 4d4b46a8-b6ec-4397-8d39-c99aaea86654))
   (no_connect (at 95.25 97.79) (uuid 5a77630f-2494-4569-91d7-9387ceda8d6e))
   (no_connect (at 95.25 140.97) (uuid 5cc53540-fee2-43b8-969a-6b15f3b1e44c))
-  (no_connect (at 95.25 133.35) (uuid 6d8df153-2bfd-4849-bdc7-8b6df7fa2fb4))
   (no_connect (at 128.27 100.33) (uuid 7108c2e4-4c6c-4ef5-9162-eb9e4ea14b03))
   (no_connect (at 128.27 77.47) (uuid 718ae534-7ae7-4a7d-b72f-68182d2f9d58))
   (no_connect (at 95.25 95.25) (uuid 7d23401d-651f-4205-bc8c-34541f6e5df7))
   (no_connect (at 128.27 87.63) (uuid 7f0a1fe9-1aec-4ef5-81df-aa24ce3a9178))
   (no_connect (at 95.25 138.43) (uuid 824dad7c-400a-4989-a1e7-34e6335e83d8))
-  (no_connect (at 95.25 130.81) (uuid 9421d6f6-0409-423b-9169-faa311556b0e))
   (no_connect (at 95.25 92.71) (uuid a211b02a-6201-456c-8ae2-c307e6748802))
   (no_connect (at 128.27 82.55) (uuid a9fc7ac9-5105-48a5-9d74-62018cc22cdc))
-  (no_connect (at 95.25 135.89) (uuid b8642c1d-6358-4416-b664-155266774c16))
+  (no_connect (at 95.25 120.65) (uuid b740a89c-f0de-4b29-be0d-65763981e3c4))
   (no_connect (at 128.27 74.93) (uuid b8d6266f-3302-4eb2-acaf-f973b720b02e))
   (no_connect (at 128.27 80.01) (uuid d1427691-ce7b-46ba-af91-28a528cf4cce))
   (no_connect (at 95.25 107.95) (uuid ec451140-8e47-4dc6-b127-9ab7edbc433f))
@@ -1061,6 +1098,10 @@
     (stroke (width 0) (type default))
     (uuid 56524388-3dd8-4ac3-bc57-11288d0eaf25)
   )
+  (wire (pts (xy 194.31 72.39) (xy 182.88 72.39))
+    (stroke (width 0) (type default))
+    (uuid 66660d3f-e666-42be-b310-1622b12c2698)
+  )
   (wire (pts (xy 45.72 90.17) (xy 45.72 95.25))
     (stroke (width 0) (type default))
     (uuid 6d190472-7161-460b-84a5-f04ab0fea3a3)
@@ -1084,6 +1125,10 @@
   (wire (pts (xy 110.49 148.59) (xy 110.49 151.13))
     (stroke (width 0) (type default))
     (uuid 759c13fd-d52d-4dc8-9a88-237e19a49bd5)
+  )
+  (wire (pts (xy 204.47 27.94) (xy 204.47 25.4))
+    (stroke (width 0) (type default))
+    (uuid 795aefd7-f968-408d-93bc-385b1b7fa393)
   )
   (wire (pts (xy 55.88 107.95) (xy 69.85 107.95))
     (stroke (width 0) (type default))
@@ -1169,6 +1214,10 @@
     (stroke (width 0) (type default))
     (uuid c98cab0d-a26e-4975-9165-ee27b9bdc66a)
   )
+  (wire (pts (xy 194.31 62.23) (xy 194.31 72.39))
+    (stroke (width 0) (type default))
+    (uuid cddf9e7d-a073-41d4-bc2a-c44b77a9dce2)
+  )
   (wire (pts (xy 67.31 99.06) (xy 67.31 110.49))
     (stroke (width 0) (type default))
     (uuid cf94c90d-2d05-4943-811e-7d4cfd2346a6)
@@ -1176,6 +1225,10 @@
   (wire (pts (xy 113.03 151.13) (xy 110.49 151.13))
     (stroke (width 0) (type default))
     (uuid d5059ed6-80f9-43e9-b670-6cddcf113061)
+  )
+  (wire (pts (xy 195.58 27.94) (xy 204.47 27.94))
+    (stroke (width 0) (type default))
+    (uuid d70eae43-4419-41b3-b703-0bb4b7cb4df0)
   )
   (wire (pts (xy 173.99 38.1) (xy 163.83 38.1))
     (stroke (width 0) (type default))
@@ -1218,9 +1271,17 @@
     (uuid fc65c722-3e6f-4811-8614-26ba64df3164)
   )
 
+  (hierarchical_label "INDICATOR_BUZZER" (shape output) (at 95.25 135.89 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 5b4494ab-1888-4c7b-b9ed-78d069b2d65e)
+  )
   (hierarchical_label "SWCLK" (shape output) (at 128.27 110.49 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 60f11115-15b8-4b8f-aa7b-5283732d3d33)
+  )
+  (hierarchical_label "INDICATOR_YELLOW" (shape output) (at 95.25 130.81 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 82161d49-1266-49ff-b0fd-e927d23da960)
   )
   (hierarchical_label "CAN_RX" (shape input) (at 128.27 102.87 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
@@ -1229,6 +1290,10 @@
   (hierarchical_label "CYCLE_LED" (shape output) (at 95.25 118.11 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid a35b5619-2392-4d36-8de3-c8d0311e8bb2)
+  )
+  (hierarchical_label "INDICATOR_RED" (shape output) (at 95.25 128.27 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid a454e15b-03e9-4511-9464-484154fbef9c)
   )
   (hierarchical_label "PWR_IN" (shape input) (at 153.67 24.13 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
@@ -1241,6 +1306,10 @@
   (hierarchical_label "SWDIO" (shape bidirectional) (at 128.27 107.95 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid b822a647-5579-4d94-a3d3-e6c894298278)
+  )
+  (hierarchical_label "INDICATOR_GREEN" (shape output) (at 95.25 133.35 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid c98850d5-9912-4fee-a1f1-94d759fa674f)
   )
   (hierarchical_label "PWR_IN" (shape input) (at 153.67 64.77 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
@@ -1258,7 +1327,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 29.21 86.36 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 002c709c-c542-4963-9ac4-89e3a9b78312)
-    (property "Reference" "SW4" (at 26.67 85.09 90)
+    (property "Reference" "SW1" (at 26.67 85.09 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SW_SPST" (at 26.67 87.63 90)
@@ -1275,7 +1344,7 @@
     (instances
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84/354045fa-61d2-4ee4-8c18-9b97f7bf46c2"
-          (reference "SW4") (unit 1)
+          (reference "SW1") (unit 1)
         )
       )
       (project "schematic_PWRcutoff"
@@ -1289,7 +1358,7 @@
   (symbol (lib_id "Device:R") (at 45.72 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 003af932-5bc2-440c-8504-5974e40b7443)
-    (property "Reference" "R12" (at 48.26 85.09 0)
+    (property "Reference" "R5" (at 48.26 85.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 48.26 87.63 0)
@@ -1306,7 +1375,7 @@
     (instances
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84/354045fa-61d2-4ee4-8c18-9b97f7bf46c2"
-          (reference "R12") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
       (project "schematic_PWRcutoff"
@@ -1317,10 +1386,35 @@
     )
   )
 
+  (symbol (lib_id "power:PWR_FLAG") (at 194.31 62.23 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 05fcf951-df0b-4e87-9905-6838425c8045)
+    (property "Reference" "#FLG06" (at 194.31 60.325 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "PWR_FLAG" (at 194.31 57.15 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 194.31 62.23 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 194.31 62.23 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 02c6ac8d-ad5c-4f8f-8d8c-69f92311469d))
+    (instances
+      (project "tsukuba_challenge"
+        (path "/55f88ae9-9831-47be-a185-734020e38c84/354045fa-61d2-4ee4-8c18-9b97f7bf46c2"
+          (reference "#FLG06") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 182.88 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 132e3253-b81d-46d4-bb44-0cf6ffab49dd)
-    (property "Reference" "#PWR09" (at 182.88 92.71 0)
+    (property "Reference" "#PWR018" (at 182.88 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 182.88 91.44 0)
@@ -1335,11 +1429,8 @@
     (pin "1" (uuid bf449c81-e663-48d8-8c30-ce1b261d723c))
     (instances
       (project "tsukuba_challenge"
-        (path "/55f88ae9-9831-47be-a185-734020e38c84/e06149c2-c1e9-4f0e-85ba-d98bc223faee"
-          (reference "#PWR09") (unit 1)
-        )
         (path "/55f88ae9-9831-47be-a185-734020e38c84/354045fa-61d2-4ee4-8c18-9b97f7bf46c2"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
       (project "stm_main"
@@ -1430,7 +1521,7 @@
   (symbol (lib_id "Device:C_Small") (at 184.15 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 202098bd-ea59-4bc7-847c-711b96c9dca3)
-    (property "Reference" "C10" (at 186.69 31.7563 0)
+    (property "Reference" "C5" (at 186.69 31.7563 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1u" (at 186.69 34.2963 0)
@@ -1447,7 +1538,7 @@
     (instances
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84/354045fa-61d2-4ee4-8c18-9b97f7bf46c2"
-          (reference "C10") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
       (project "schematic_PWRcutoff"
@@ -1477,9 +1568,6 @@
     (pin "2" (uuid 754ae7c5-2b76-4b3c-b3a1-1dcf10d79c9b))
     (instances
       (project "tsukuba_challenge"
-        (path "/55f88ae9-9831-47be-a185-734020e38c84/e06149c2-c1e9-4f0e-85ba-d98bc223faee"
-          (reference "L1") (unit 1)
-        )
         (path "/55f88ae9-9831-47be-a185-734020e38c84/354045fa-61d2-4ee4-8c18-9b97f7bf46c2"
           (reference "L1") (unit 1)
         )
@@ -1495,7 +1583,7 @@
   (symbol (lib_id "power:GND") (at 195.58 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 38b4d92d-c926-4166-a782-5028afb78c4d)
-    (property "Reference" "#PWR039" (at 195.58 46.99 0)
+    (property "Reference" "#PWR014" (at 195.58 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 195.58 45.72 0)
@@ -1511,7 +1599,7 @@
     (instances
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84/354045fa-61d2-4ee4-8c18-9b97f7bf46c2"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
       (project "schematic_PWRcutoff"
@@ -1525,7 +1613,7 @@
   (symbol (lib_id "power:GND") (at 29.21 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 38fc44c2-4c54-4b68-8acc-c1193920edc1)
-    (property "Reference" "#PWR033" (at 29.21 106.68 0)
+    (property "Reference" "#PWR020" (at 29.21 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 29.21 105.41 0)
@@ -1541,7 +1629,7 @@
     (instances
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84/354045fa-61d2-4ee4-8c18-9b97f7bf46c2"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
       (project "schematic_PWRcutoff"
@@ -1555,7 +1643,7 @@
   (symbol (lib_id "power:GND") (at 110.49 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3c7b852e-6b2e-40fa-bb7c-ab08083c5902)
-    (property "Reference" "#PWR037" (at 110.49 160.02 0)
+    (property "Reference" "#PWR022" (at 110.49 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 110.49 158.75 0)
@@ -1571,7 +1659,7 @@
     (instances
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84/354045fa-61d2-4ee4-8c18-9b97f7bf46c2"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
       (project "schematic_PWRcutoff"
@@ -1585,7 +1673,7 @@
   (symbol (lib_id "power:VDDA") (at 182.88 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 415e469a-d262-43d1-882b-ba0558b36c1e)
-    (property "Reference" "#PWR020" (at 182.88 66.04 0)
+    (property "Reference" "#PWR017" (at 182.88 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDDA" (at 182.88 57.15 0)
@@ -1601,7 +1689,7 @@
     (instances
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84/354045fa-61d2-4ee4-8c18-9b97f7bf46c2"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -1610,7 +1698,7 @@
   (symbol (lib_id "Device:C") (at 182.88 81.28 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6037565b-869e-4ed2-ad07-6c9933576083)
-    (property "Reference" "C18" (at 186.69 80.01 0)
+    (property "Reference" "C8" (at 186.69 80.01 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 186.69 82.55 0)
@@ -1626,11 +1714,8 @@
     (pin "2" (uuid baa36b27-027a-4a50-b7e8-7ec2a4c65e0f))
     (instances
       (project "tsukuba_challenge"
-        (path "/55f88ae9-9831-47be-a185-734020e38c84/e06149c2-c1e9-4f0e-85ba-d98bc223faee"
-          (reference "C18") (unit 1)
-        )
         (path "/55f88ae9-9831-47be-a185-734020e38c84/354045fa-61d2-4ee4-8c18-9b97f7bf46c2"
-          (reference "C18") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
       (project "stm_main"
@@ -1644,7 +1729,7 @@
   (symbol (lib_id "power:GND") (at 52.07 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 666c5633-da33-459a-a745-04350d682eaf)
-    (property "Reference" "#PWR035" (at 52.07 128.27 0)
+    (property "Reference" "#PWR021" (at 52.07 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 52.07 127 0)
@@ -1660,7 +1745,7 @@
     (instances
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84/354045fa-61d2-4ee4-8c18-9b97f7bf46c2"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
       (project "schematic_PWRcutoff"
@@ -1674,7 +1759,7 @@
   (symbol (lib_id "Device:C_Small") (at 173.99 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6c29bf87-5a6d-451c-9d83-fc4efb87d3d2)
-    (property "Reference" "C9" (at 176.53 31.7563 0)
+    (property "Reference" "C4" (at 176.53 31.7563 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1u" (at 176.53 34.2963 0)
@@ -1691,7 +1776,7 @@
     (instances
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84/354045fa-61d2-4ee4-8c18-9b97f7bf46c2"
-          (reference "C9") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
       (project "schematic_PWRcutoff"
@@ -1705,7 +1790,7 @@
   (symbol (lib_id "Device:C_Small") (at 195.58 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 77df9c54-6da3-4096-852e-ed0cff50a9c9)
-    (property "Reference" "C13" (at 198.12 31.7563 0)
+    (property "Reference" "C6" (at 198.12 31.7563 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1u" (at 198.12 34.2963 0)
@@ -1722,7 +1807,7 @@
     (instances
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84/354045fa-61d2-4ee4-8c18-9b97f7bf46c2"
-          (reference "C13") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
       (project "schematic_PWRcutoff"
@@ -1736,7 +1821,7 @@
   (symbol (lib_id "Device:C_Small") (at 35.56 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7aeb9e03-c831-4fa8-b7f1-0d202db58020)
-    (property "Reference" "C4" (at 38.1 85.0963 0)
+    (property "Reference" "C9" (at 38.1 85.0963 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1u" (at 38.1 87.6363 0)
@@ -1753,7 +1838,7 @@
     (instances
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84/354045fa-61d2-4ee4-8c18-9b97f7bf46c2"
-          (reference "C4") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
       (project "schematic_PWRcutoff"
@@ -1767,7 +1852,7 @@
   (symbol (lib_id "Device:C_Small") (at 163.83 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 83b9ada8-211c-4f18-a7e8-92f2bdc08c66)
-    (property "Reference" "C8" (at 166.37 31.7563 0)
+    (property "Reference" "C3" (at 166.37 31.7563 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1u" (at 166.37 34.2963 0)
@@ -1784,7 +1869,7 @@
     (instances
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84/354045fa-61d2-4ee4-8c18-9b97f7bf46c2"
-          (reference "C8") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
       (project "schematic_PWRcutoff"
@@ -1798,7 +1883,7 @@
   (symbol (lib_id "power:GND") (at 45.72 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a33bdc01-6078-4cdd-9217-25d0e070a777)
-    (property "Reference" "#PWR034" (at 45.72 101.6 0)
+    (property "Reference" "#PWR019" (at 45.72 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 45.72 100.33 0)
@@ -1814,7 +1899,7 @@
     (instances
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84/354045fa-61d2-4ee4-8c18-9b97f7bf46c2"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
       (project "schematic_PWRcutoff"
@@ -1828,7 +1913,7 @@
   (symbol (lib_id "Device:C_Small") (at 55.88 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b51acb78-00a8-40f5-afdb-667a1c2aa21e)
-    (property "Reference" "C5" (at 58.42 111.7663 0)
+    (property "Reference" "C10" (at 58.42 111.7663 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10p" (at 58.42 114.3063 0)
@@ -1845,7 +1930,7 @@
     (instances
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84/354045fa-61d2-4ee4-8c18-9b97f7bf46c2"
-          (reference "C5") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
       (project "schematic_PWRcutoff"
@@ -1859,7 +1944,7 @@
   (symbol (lib_id "power:VDD") (at 107.95 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bf05e4b2-93a9-401d-95ff-e222f37ec80c)
-    (property "Reference" "#PWR07" (at 107.95 62.23 0)
+    (property "Reference" "#PWR015" (at 107.95 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD" (at 107.95 53.34 0)
@@ -1875,7 +1960,7 @@
     (instances
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84/354045fa-61d2-4ee4-8c18-9b97f7bf46c2"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -1884,7 +1969,7 @@
   (symbol (lib_id "Device:C") (at 172.72 81.28 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c9f07309-a64f-4e6d-8cd6-f0aee1ae4ce6)
-    (property "Reference" "C15" (at 176.53 80.01 0)
+    (property "Reference" "C7" (at 176.53 80.01 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1u" (at 176.53 82.55 0)
@@ -1900,11 +1985,8 @@
     (pin "2" (uuid 0cc32849-088d-491d-8bc9-5e1400a8824a))
     (instances
       (project "tsukuba_challenge"
-        (path "/55f88ae9-9831-47be-a185-734020e38c84/e06149c2-c1e9-4f0e-85ba-d98bc223faee"
-          (reference "C15") (unit 1)
-        )
         (path "/55f88ae9-9831-47be-a185-734020e38c84/354045fa-61d2-4ee4-8c18-9b97f7bf46c2"
-          (reference "C15") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
       (project "stm_main"
@@ -1951,7 +2033,7 @@
   (symbol (lib_id "Device:C_Small") (at 153.67 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d71c7d00-3e58-4912-8d34-15b44d71451b)
-    (property "Reference" "C7" (at 156.21 31.7563 0)
+    (property "Reference" "C2" (at 156.21 31.7563 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 156.21 34.2963 0)
@@ -1968,7 +2050,7 @@
     (instances
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84/354045fa-61d2-4ee4-8c18-9b97f7bf46c2"
-          (reference "C7") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
       (project "schematic_PWRcutoff"
@@ -1982,7 +2064,7 @@
   (symbol (lib_id "power:VDD") (at 195.58 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dded98bb-8104-4f43-ab6f-a72b4d7cbe8c)
-    (property "Reference" "#PWR021" (at 195.58 29.21 0)
+    (property "Reference" "#PWR013" (at 195.58 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD" (at 195.58 20.32 0)
@@ -1998,7 +2080,7 @@
     (instances
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84/354045fa-61d2-4ee4-8c18-9b97f7bf46c2"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -2007,7 +2089,7 @@
   (symbol (lib_id "Device:C_Small") (at 67.31 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e262fe79-a449-44ee-b322-c158dbd90ab1)
-    (property "Reference" "C6" (at 69.85 111.7663 0)
+    (property "Reference" "C11" (at 69.85 111.7663 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10p" (at 69.85 114.3063 0)
@@ -2024,7 +2106,7 @@
     (instances
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84/354045fa-61d2-4ee4-8c18-9b97f7bf46c2"
-          (reference "C6") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
       (project "schematic_PWRcutoff"
@@ -2035,10 +2117,35 @@
     )
   )
 
+  (symbol (lib_id "power:PWR_FLAG") (at 204.47 25.4 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e9f9453d-7b12-4ad3-be01-3e0423c907ad)
+    (property "Reference" "#FLG05" (at 204.47 23.495 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "PWR_FLAG" (at 204.47 20.32 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 204.47 25.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 204.47 25.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid afb73ea5-4e2f-438e-8ebd-e1a0bd542dc9))
+    (instances
+      (project "tsukuba_challenge"
+        (path "/55f88ae9-9831-47be-a185-734020e38c84/354045fa-61d2-4ee4-8c18-9b97f7bf46c2"
+          (reference "#FLG05") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:VDDA") (at 118.11 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eb7407fb-7c2a-443d-bcea-95b5e3ffe243)
-    (property "Reference" "#PWR08" (at 118.11 62.23 0)
+    (property "Reference" "#PWR016" (at 118.11 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDDA" (at 118.11 53.34 0)
@@ -2054,7 +2161,7 @@
     (instances
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84/354045fa-61d2-4ee4-8c18-9b97f7bf46c2"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
