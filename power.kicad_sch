@@ -724,6 +724,46 @@
         )
       )
     )
+    (symbol "power:PWR_FLAG" (power) (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "#FLG" (at 0 1.905 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "PWR_FLAG" (at 0 3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "flag power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Special symbol for telling ERC where power comes from" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "PWR_FLAG_0_0"
+        (pin power_out line (at 0 0 90) (length 0)
+          (name "pwr" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+      (symbol "PWR_FLAG_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 1.27)
+            (xy -1.016 1.905)
+            (xy 0 2.54)
+            (xy 1.016 1.905)
+            (xy 0 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+    )
   )
 
   (junction (at 181.61 68.58) (diameter 0) (color 0 0 0 0)
@@ -756,6 +796,9 @@
   (junction (at 66.04 53.34) (diameter 0) (color 0 0 0 0)
     (uuid b30c9b1d-e402-43fb-a3a9-09f6ef82ab02)
   )
+  (junction (at 105.41 53.34) (diameter 0) (color 0 0 0 0)
+    (uuid b67c9dba-7374-4d70-915e-ef15694a25b9)
+  )
   (junction (at 133.35 53.34) (diameter 0) (color 0 0 0 0)
     (uuid b8af17f7-0405-4b0d-a3ec-8efd19b116e9)
   )
@@ -775,7 +818,7 @@
   (no_connect (at 102.87 50.8) (uuid 9b12439a-9e1d-4361-ac56-4212131f2fb5))
   (no_connect (at 72.39 48.26) (uuid ef1d7210-9fd4-4b3b-a19b-e8d1ff799b1c))
 
-  (wire (pts (xy 102.87 53.34) (xy 110.49 53.34))
+  (wire (pts (xy 102.87 53.34) (xy 105.41 53.34))
     (stroke (width 0) (type default))
     (uuid 05324756-024b-40c6-a2b0-678fabd1908d)
   )
@@ -790,6 +833,14 @@
   (wire (pts (xy 173.99 68.58) (xy 148.59 68.58))
     (stroke (width 0) (type default))
     (uuid 1d0647b5-2007-4ec5-8c4e-1c0667f408bd)
+  )
+  (wire (pts (xy 105.41 53.34) (xy 110.49 53.34))
+    (stroke (width 0) (type default))
+    (uuid 1fe87bf9-175c-46f1-8ecd-71212e9d0df2)
+  )
+  (wire (pts (xy 66.04 38.1) (xy 66.04 53.34))
+    (stroke (width 0) (type default))
+    (uuid 2a517e45-e9a9-43f2-8db9-d5720fd8a5bf)
   )
   (wire (pts (xy 107.95 58.42) (xy 107.95 68.58))
     (stroke (width 0) (type default))
@@ -911,10 +962,6 @@
     (stroke (width 0) (type default))
     (uuid d2fb9275-efef-48de-83bc-a88f4f0812ca)
   )
-  (wire (pts (xy 66.04 38.1) (xy 66.04 53.34))
-    (stroke (width 0) (type default))
-    (uuid d47b7836-348a-42d9-a0a0-edb9593509d7)
-  )
   (wire (pts (xy 66.04 53.34) (xy 72.39 53.34))
     (stroke (width 0) (type default))
     (uuid d78a3ebb-03fc-4b38-98c8-050cfcbe7d4a)
@@ -926,6 +973,10 @@
   (wire (pts (xy 173.99 66.04) (xy 173.99 68.58))
     (stroke (width 0) (type default))
     (uuid db11646d-fb43-448e-a017-0ee3eba76d04)
+  )
+  (wire (pts (xy 105.41 29.21) (xy 105.41 53.34))
+    (stroke (width 0) (type default))
+    (uuid e2cf3816-3a7c-49df-8cd7-8ed65ddcedc8)
   )
   (wire (pts (xy 198.12 39.37) (xy 198.12 53.34))
     (stroke (width 0) (type default))
@@ -961,7 +1012,7 @@
     (property "Value" "0.1u" (at 152.4 66.04 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 148.59 63.5 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 148.59 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 148.59 63.5 0)
@@ -981,7 +1032,7 @@
   (symbol (lib_id "power:GND") (at 242.57 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0eb8542a-8127-40d9-8f28-e83747cb4714)
-    (property "Reference" "#PWR032" (at 242.57 69.85 0)
+    (property "Reference" "#PWR034" (at 242.57 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 242.57 68.58 0)
@@ -997,7 +1048,7 @@
     (instances
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84/e06149c2-c1e9-4f0e-85ba-d98bc223faee"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -1006,7 +1057,7 @@
   (symbol (lib_id "power:GND") (at 219.71 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 23e3a170-2a98-4fb5-98f2-575e1896fe2a)
-    (property "Reference" "#PWR030" (at 219.71 69.85 0)
+    (property "Reference" "#PWR032" (at 219.71 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 219.71 68.58 0)
@@ -1022,7 +1073,7 @@
     (instances
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84/e06149c2-c1e9-4f0e-85ba-d98bc223faee"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -1031,7 +1082,7 @@
   (symbol (lib_id "power:+BATT") (at 66.04 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 38684512-21d2-42a3-9748-830ac12c114e)
-    (property "Reference" "#PWR023" (at 66.04 41.91 0)
+    (property "Reference" "#PWR025" (at 66.04 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (at 66.04 33.02 0)
@@ -1047,7 +1098,7 @@
     (instances
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84/e06149c2-c1e9-4f0e-85ba-d98bc223faee"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -1056,13 +1107,13 @@
   (symbol (lib_id "Device:R") (at 231.14 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 41296c09-42e1-417c-aa39-6f1294396c7b)
-    (property "Reference" "R7" (at 233.68 43.18 0)
+    (property "Reference" "R11" (at 233.68 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3.3k" (at 233.68 45.72 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 229.362 44.45 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 229.362 44.45 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 231.14 44.45 0)
@@ -1073,7 +1124,7 @@
     (instances
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84/e06149c2-c1e9-4f0e-85ba-d98bc223faee"
-          (reference "R7") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -1082,13 +1133,13 @@
   (symbol (lib_id "Device:R") (at 242.57 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 49bf1a58-3026-495a-abf5-4c4039301098)
-    (property "Reference" "R8" (at 245.11 43.18 0)
+    (property "Reference" "R12" (at 245.11 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1.2k" (at 245.11 45.72 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 240.792 44.45 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 240.792 44.45 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 242.57 44.45 0)
@@ -1099,7 +1150,7 @@
     (instances
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84/e06149c2-c1e9-4f0e-85ba-d98bc223faee"
-          (reference "R8") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -1108,7 +1159,7 @@
   (symbol (lib_id "power:+5V") (at 231.14 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 55b7ae4f-d9d7-403f-8e0e-13a612010b69)
-    (property "Reference" "#PWR025" (at 231.14 41.91 0)
+    (property "Reference" "#PWR027" (at 231.14 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 231.14 33.02 0)
@@ -1124,7 +1175,7 @@
     (instances
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84/e06149c2-c1e9-4f0e-85ba-d98bc223faee"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -1166,7 +1217,7 @@
     (property "Value" "120u" (at 57.15 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 67.0052 60.96 0)
+    (property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7" (at 67.0052 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 66.04 57.15 0)
@@ -1186,13 +1237,13 @@
   (symbol (lib_id "Device:LED") (at 242.57 55.88 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 75ac91eb-4afb-42e2-9193-2a4a015ca697)
-    (property "Reference" "D3" (at 246.38 56.1975 90)
+    (property "Reference" "D4" (at 246.38 56.1975 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED" (at 246.38 58.7375 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 242.57 55.88 0)
+    (property "Footprint" "LED_SMD:LED_0603_1608Metric" (at 242.57 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 242.57 55.88 0)
@@ -1203,7 +1254,7 @@
     (instances
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84/e06149c2-c1e9-4f0e-85ba-d98bc223faee"
-          (reference "D3") (unit 1)
+          (reference "D4") (unit 1)
         )
       )
     )
@@ -1218,7 +1269,7 @@
     (property "Value" "1u" (at 165.1 66.04 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 173.99 63.5 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 173.99 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 173.99 63.5 0)
@@ -1283,7 +1334,7 @@
   (symbol (lib_id "power:+3.3V") (at 242.57 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9130cbf7-b2e0-48f1-ae53-b619b768effd)
-    (property "Reference" "#PWR026" (at 242.57 41.91 0)
+    (property "Reference" "#PWR028" (at 242.57 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 242.57 33.02 0)
@@ -1299,7 +1350,32 @@
     (instances
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84/e06149c2-c1e9-4f0e-85ba-d98bc223faee"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR028") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:PWR_FLAG") (at 105.41 29.21 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 91a8fe88-d574-4b00-81e2-6ed18a6641ec)
+    (property "Reference" "#FLG04" (at 105.41 27.305 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "PWR_FLAG" (at 105.41 24.13 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 105.41 29.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 105.41 29.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1ff3b6dc-c98e-42ca-9949-250428765768))
+    (instances
+      (project "tsukuba_challenge"
+        (path "/55f88ae9-9831-47be-a185-734020e38c84/e06149c2-c1e9-4f0e-85ba-d98bc223faee"
+          (reference "#FLG04") (unit 1)
         )
       )
     )
@@ -1308,7 +1384,7 @@
   (symbol (lib_id "power:+5V") (at 153.67 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9844a42d-2a0a-4996-af50-71b17cdfbbf8)
-    (property "Reference" "#PWR028" (at 153.67 43.18 0)
+    (property "Reference" "#PWR030" (at 153.67 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 153.67 34.29 0)
@@ -1324,7 +1400,7 @@
     (instances
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84/e06149c2-c1e9-4f0e-85ba-d98bc223faee"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -1333,7 +1409,7 @@
   (symbol (lib_id "power:GND") (at 231.14 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 98dbc21f-405f-4650-bc35-f64ee28c70da)
-    (property "Reference" "#PWR031" (at 231.14 69.85 0)
+    (property "Reference" "#PWR033" (at 231.14 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 231.14 68.58 0)
@@ -1349,7 +1425,7 @@
     (instances
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84/e06149c2-c1e9-4f0e-85ba-d98bc223faee"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -1364,7 +1440,7 @@
     (property "Value" "0.33u" (at 124.46 66.04 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 133.35 63.5 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 133.35 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 133.35 63.5 0)
@@ -1411,7 +1487,7 @@
   (symbol (lib_id "power:GND") (at 107.95 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a8ae8e27-644b-4696-b955-38fe8469caaf)
-    (property "Reference" "#PWR034" (at 107.95 76.2 0)
+    (property "Reference" "#PWR036" (at 107.95 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 107.95 74.93 0)
@@ -1427,7 +1503,7 @@
     (instances
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84/e06149c2-c1e9-4f0e-85ba-d98bc223faee"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -1436,13 +1512,13 @@
   (symbol (lib_id "Device:R") (at 219.71 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ab4a9a27-addb-4c6f-813e-ece7b1e4ea69)
-    (property "Reference" "R6" (at 222.25 43.18 0)
+    (property "Reference" "R10" (at 222.25 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 222.25 45.72 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 217.932 44.45 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 217.932 44.45 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 219.71 44.45 0)
@@ -1453,7 +1529,7 @@
     (instances
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84/e06149c2-c1e9-4f0e-85ba-d98bc223faee"
-          (reference "R6") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -1462,7 +1538,7 @@
   (symbol (lib_id "power:+12V") (at 219.71 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d3862252-8a8a-43a0-bc2e-bc858c01cd88)
-    (property "Reference" "#PWR024" (at 219.71 41.91 0)
+    (property "Reference" "#PWR026" (at 219.71 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 219.71 33.02 0)
@@ -1478,7 +1554,7 @@
     (instances
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84/e06149c2-c1e9-4f0e-85ba-d98bc223faee"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -1487,13 +1563,13 @@
   (symbol (lib_id "Device:LED") (at 219.71 55.88 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d3b15bb5-91bc-4103-b60e-39f18d60a44b)
-    (property "Reference" "D1" (at 223.52 56.1975 90)
+    (property "Reference" "D2" (at 223.52 56.1975 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED" (at 223.52 58.7375 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 219.71 55.88 0)
+    (property "Footprint" "LED_SMD:LED_0603_1608Metric" (at 219.71 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 219.71 55.88 0)
@@ -1504,7 +1580,7 @@
     (instances
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84/e06149c2-c1e9-4f0e-85ba-d98bc223faee"
-          (reference "D1") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -1519,7 +1595,7 @@
     (property "Value" "1u" (at 193.04 66.04 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 189.23 63.5 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 189.23 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 189.23 63.5 0)
@@ -1539,7 +1615,7 @@
   (symbol (lib_id "power:+3.3V") (at 198.12 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid df9f19eb-db0b-44ce-97ed-dcccfd8d22dc)
-    (property "Reference" "#PWR029" (at 198.12 43.18 0)
+    (property "Reference" "#PWR031" (at 198.12 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 198.12 34.29 0)
@@ -1555,7 +1631,7 @@
     (instances
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84/e06149c2-c1e9-4f0e-85ba-d98bc223faee"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -1564,7 +1640,7 @@
   (symbol (lib_id "power:+12V") (at 110.49 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e28a1602-c11c-485d-b8f8-78a3958b85dd)
-    (property "Reference" "#PWR027" (at 110.49 43.18 0)
+    (property "Reference" "#PWR029" (at 110.49 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 110.49 34.29 0)
@@ -1580,7 +1656,7 @@
     (instances
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84/e06149c2-c1e9-4f0e-85ba-d98bc223faee"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -1589,13 +1665,13 @@
   (symbol (lib_id "Device:LED") (at 231.14 55.88 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ea92eec3-70e2-4e58-86f0-54d98f53f277)
-    (property "Reference" "D2" (at 234.95 56.1975 90)
+    (property "Reference" "D3" (at 234.95 56.1975 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED" (at 234.95 58.7375 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 231.14 55.88 0)
+    (property "Footprint" "LED_SMD:LED_0603_1608Metric" (at 231.14 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 231.14 55.88 0)
@@ -1606,7 +1682,7 @@
     (instances
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84/e06149c2-c1e9-4f0e-85ba-d98bc223faee"
-          (reference "D2") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -1615,7 +1691,7 @@
   (symbol (lib_id "power:GNDPWR") (at 71.12 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f135afcd-2697-45a1-8e17-4785fef5dfa0)
-    (property "Reference" "#PWR033" (at 71.12 73.66 0)
+    (property "Reference" "#PWR035" (at 71.12 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDPWR" (at 70.993 72.39 0)
@@ -1631,7 +1707,7 @@
     (instances
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84/e06149c2-c1e9-4f0e-85ba-d98bc223faee"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
     )
@@ -1646,7 +1722,7 @@
     (property "Value" "22u" (at 114.3 58.42 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 110.49 55.88 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 110.49 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 110.49 55.88 0)

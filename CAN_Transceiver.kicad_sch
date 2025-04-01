@@ -537,7 +537,6 @@
   )
 
   (no_connect (at 158.75 82.55) (uuid 1eb17189-c2a6-4941-a00f-cd1502b6a9ad))
-  (no_connect (at 123.19 82.55) (uuid a265df16-7ae2-4e8a-a83f-78da14a4d78e))
 
   (wire (pts (xy 161.29 102.87) (xy 172.72 102.87))
     (stroke (width 0) (type default))
@@ -938,7 +937,7 @@
       )
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84/9c1fd94d-8d77-4c45-be6e-46f605b5b044"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
       )
     )
@@ -1040,7 +1039,7 @@
       )
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84/9c1fd94d-8d77-4c45-be6e-46f605b5b044"
-          (reference "FB1") (unit 1)
+          (reference "FB2") (unit 1)
         )
       )
     )
@@ -1052,7 +1051,7 @@
     (property "Reference" "C7" (at 162.56 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "0.1uF" (at 162.56 59.69 0)
+    (property "Value" "0.1u" (at 162.56 59.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 168.91 62.23 0)
@@ -1108,7 +1107,7 @@
       )
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84/9c1fd94d-8d77-4c45-be6e-46f605b5b044"
-          (reference "FB2") (unit 1)
+          (reference "FB3") (unit 1)
         )
       )
     )
@@ -1153,7 +1152,7 @@
     (property "Reference" "C9" (at 171.45 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10uF" (at 171.45 59.69 0)
+    (property "Value" "10u" (at 171.45 59.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 176.53 62.23 0)
@@ -1184,7 +1183,7 @@
   (symbol (lib_id "power:GNDPWR") (at 168.91 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 865f080a-88a5-4628-87a9-a25a190ffe93)
-    (property "Reference" "#PWR042" (at 168.91 85.09 0)
+    (property "Reference" "#PWR044" (at 168.91 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDPWR" (at 168.783 83.82 0)
@@ -1200,7 +1199,7 @@
     (instances
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84/9c1fd94d-8d77-4c45-be6e-46f605b5b044"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
       )
     )
@@ -1267,7 +1266,7 @@
       )
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84/9c1fd94d-8d77-4c45-be6e-46f605b5b044"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
       )
     )
@@ -1301,7 +1300,7 @@
       )
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84/9c1fd94d-8d77-4c45-be6e-46f605b5b044"
-          (reference "FB4") (unit 1)
+          (reference "FB5") (unit 1)
         )
       )
     )
@@ -1403,7 +1402,7 @@
       )
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84/9c1fd94d-8d77-4c45-be6e-46f605b5b044"
-          (reference "FB5") (unit 1)
+          (reference "FB6") (unit 1)
         )
       )
     )
@@ -1452,7 +1451,7 @@
     (property "Value" "ISOW1044BDFMR" (at 140.97 62.23 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SOIC127P1030X355-20N" (at 154.94 162.23 0)
+    (property "Footprint" "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm" (at 154.94 162.23 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/isow1044.pdf?ts=1645295421849&ref_url=https%253A%252F%252Fwww.google.com%252F" (at 154.94 262.23 0)
@@ -1530,7 +1529,7 @@
       )
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84/9c1fd94d-8d77-4c45-be6e-46f605b5b044"
-          (reference "FB3") (unit 1)
+          (reference "FB4") (unit 1)
         )
       )
     )
@@ -1545,7 +1544,7 @@
     (property "Value" "4.7k" (at 91.44 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 95.758 63.5 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 95.758 63.5 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 93.98 63.5 0)
@@ -1564,7 +1563,7 @@
       )
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84/9c1fd94d-8d77-4c45-be6e-46f605b5b044"
-          (reference "R17") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
     )
@@ -1573,7 +1572,7 @@
   (symbol (lib_id "power:GNDPWR") (at 204.47 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f94f0519-6e42-4344-9db7-b741392940dc)
-    (property "Reference" "#PWR044" (at 204.47 118.11 0)
+    (property "Reference" "#PWR046" (at 204.47 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDPWR" (at 204.343 116.84 0)
@@ -1589,7 +1588,7 @@
     (instances
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84/9c1fd94d-8d77-4c45-be6e-46f605b5b044"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR046") (unit 1)
         )
       )
     )
