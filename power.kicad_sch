@@ -1119,8 +1119,8 @@
     (property "Datasheet" "~" (at 231.14 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid bef039dc-1bfd-48e9-ab7c-06c971f70c6f))
     (pin "1" (uuid a170db4b-f708-4f11-91b0-c42a3132821f))
+    (pin "2" (uuid bef039dc-1bfd-48e9-ab7c-06c971f70c6f))
     (instances
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84/e06149c2-c1e9-4f0e-85ba-d98bc223faee"
@@ -1145,8 +1145,8 @@
     (property "Datasheet" "~" (at 242.57 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid e6b92b4e-ecf1-4a4c-97d0-08c69e25e7b8))
     (pin "1" (uuid 7f376bff-0f8a-4b91-bf6f-dd935f73d54d))
+    (pin "2" (uuid e6b92b4e-ecf1-4a4c-97d0-08c69e25e7b8))
     (instances
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84/e06149c2-c1e9-4f0e-85ba-d98bc223faee"
@@ -1316,12 +1316,12 @@
     (property "Manufacturer_Part_Number" "CCG30-24-12S/P" (at 99.06 843.18 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "2" (uuid ea618451-bcc5-4340-afe3-dd4fdeafc8c6))
     (pin "1" (uuid a6600fe9-fa12-44fe-b56e-20cb7e2d1e02))
+    (pin "2" (uuid ea618451-bcc5-4340-afe3-dd4fdeafc8c6))
     (pin "3" (uuid 4b033a55-5787-4ccc-bb49-cfda354fbe19))
     (pin "4" (uuid 5253e4a9-c025-441b-8033-33d41807e265))
-    (pin "6" (uuid 5232b21c-b825-4b58-88a6-71a1a9486096))
     (pin "5" (uuid 0466209c-2b4d-4514-81aa-cb5c3e821f3f))
+    (pin "6" (uuid 5232b21c-b825-4b58-88a6-71a1a9486096))
     (instances
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84/e06149c2-c1e9-4f0e-85ba-d98bc223faee"
@@ -1524,8 +1524,8 @@
     (property "Datasheet" "~" (at 219.71 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 658b3fbc-23e5-4f9f-8f90-b8f6c0a3951a))
     (pin "1" (uuid dfbbba8f-29d3-4e7a-8839-7d52367f0e8d))
+    (pin "2" (uuid 658b3fbc-23e5-4f9f-8f90-b8f6c0a3951a))
     (instances
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84/e06149c2-c1e9-4f0e-85ba-d98bc223faee"

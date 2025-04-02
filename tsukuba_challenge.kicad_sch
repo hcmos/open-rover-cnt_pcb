@@ -3703,8 +3703,8 @@
     (property "Datasheet" "~" (at 104.14 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid e363772e-4444-466c-a5cd-a5585ed51d5f))
     (pin "1" (uuid 5a16839b-72fb-48ca-a79f-c2e0f9a86845))
+    (pin "2" (uuid e363772e-4444-466c-a5cd-a5585ed51d5f))
     (instances
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84"
@@ -3856,8 +3856,8 @@
     (property "Datasheet" "~" (at 78.74 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 05e4c3da-f4f9-423b-a855-e2163ad5c899))
     (pin "1" (uuid 4e15c2f9-14ea-493b-b1b8-b89a46fe2d21))
+    (pin "2" (uuid 05e4c3da-f4f9-423b-a855-e2163ad5c899))
     (instances
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84"
@@ -3984,8 +3984,8 @@
     (property "Datasheet" "~" (at 101.6 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid cd901ca5-6a9e-45e7-a1cb-944e22ee844e))
     (pin "1" (uuid cceaf160-3f44-41fb-8395-0c547036037a))
+    (pin "2" (uuid cd901ca5-6a9e-45e7-a1cb-944e22ee844e))
     (instances
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84"
@@ -4086,23 +4086,23 @@
     (property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" (at 43.18 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "S1" (uuid 48970449-9c01-4677-a660-cc26fce39cac))
-    (pin "A8" (uuid b1334e9c-4612-45fe-85c2-41268c8c6a0a))
-    (pin "B12" (uuid 31ddc2a5-0f11-464f-87d6-c94ddeddc65a))
-    (pin "B6" (uuid 57e486fb-7095-4caa-871b-c4c656701e09))
-    (pin "B9" (uuid 830795c8-b5b2-44c2-ad05-495f8ec4f870))
-    (pin "A9" (uuid 0304cc49-b36d-4bc1-a98c-d964d938137d))
-    (pin "B5" (uuid 7d5823c1-c8b0-44a0-8540-1256768ebfbe))
-    (pin "A5" (uuid a976d107-c7d0-4e72-9323-f3e32459c19b))
-    (pin "A12" (uuid 54fd7c2b-48fc-4095-8d36-5418a2b0548b))
-    (pin "B4" (uuid f7410cb8-543e-447a-b7b9-2ef647813083))
-    (pin "B7" (uuid 2cc11690-9185-4be5-977e-fa3bff159791))
-    (pin "A6" (uuid e86368d7-3fac-4059-99d0-ecfa80319270))
-    (pin "A4" (uuid ea4c30d6-1f0d-4cf6-8099-a090ab8e3bfe))
     (pin "A1" (uuid f56a736d-8255-4233-919b-b2e73e071291))
-    (pin "B8" (uuid 3c8792bd-ace5-4b58-8197-2d2fd201d753))
-    (pin "B1" (uuid 8aae1659-dbf2-43df-90bf-1db0a60eec1a))
+    (pin "A12" (uuid 54fd7c2b-48fc-4095-8d36-5418a2b0548b))
+    (pin "A4" (uuid ea4c30d6-1f0d-4cf6-8099-a090ab8e3bfe))
+    (pin "A5" (uuid a976d107-c7d0-4e72-9323-f3e32459c19b))
+    (pin "A6" (uuid e86368d7-3fac-4059-99d0-ecfa80319270))
     (pin "A7" (uuid a9030f96-1992-411c-b1bd-807a6d63aa16))
+    (pin "A8" (uuid b1334e9c-4612-45fe-85c2-41268c8c6a0a))
+    (pin "A9" (uuid 0304cc49-b36d-4bc1-a98c-d964d938137d))
+    (pin "B1" (uuid 8aae1659-dbf2-43df-90bf-1db0a60eec1a))
+    (pin "B12" (uuid 31ddc2a5-0f11-464f-87d6-c94ddeddc65a))
+    (pin "B4" (uuid f7410cb8-543e-447a-b7b9-2ef647813083))
+    (pin "B5" (uuid 7d5823c1-c8b0-44a0-8540-1256768ebfbe))
+    (pin "B6" (uuid 57e486fb-7095-4caa-871b-c4c656701e09))
+    (pin "B7" (uuid 2cc11690-9185-4be5-977e-fa3bff159791))
+    (pin "B8" (uuid 3c8792bd-ace5-4b58-8197-2d2fd201d753))
+    (pin "B9" (uuid 830795c8-b5b2-44c2-ad05-495f8ec4f870))
+    (pin "S1" (uuid 48970449-9c01-4677-a660-cc26fce39cac))
     (instances
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84"
@@ -4431,10 +4431,10 @@
     )
     (pin "1" (uuid 1b709f82-730f-48f6-926b-f83d4ba6f977))
     (pin "2" (uuid b49c2759-94aa-4725-8299-9993c5992504))
-    (pin "5" (uuid 5ab1d14e-40c0-4394-8180-027172bce105))
-    (pin "4" (uuid 4f4f0d06-bc2e-4db2-913d-e55704630800))
-    (pin "6" (uuid 9c66a4ce-6feb-4ee2-98e6-3e8921c13c90))
     (pin "3" (uuid 4afe4d6f-d07e-45ab-ba71-3ce4da64e71b))
+    (pin "4" (uuid 4f4f0d06-bc2e-4db2-913d-e55704630800))
+    (pin "5" (uuid 5ab1d14e-40c0-4394-8180-027172bce105))
+    (pin "6" (uuid 9c66a4ce-6feb-4ee2-98e6-3e8921c13c90))
     (instances
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84"
@@ -4648,8 +4648,8 @@
     (property "Datasheet" "~" (at 96.52 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 739a0ebf-836b-4571-b1a4-4d162b21f869))
     (pin "1" (uuid 98d8f056-dafd-405d-9bae-8c2fcd413dfa))
+    (pin "2" (uuid 739a0ebf-836b-4571-b1a4-4d162b21f869))
     (instances
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84"
@@ -4739,24 +4739,24 @@
     (property "Manufacturer_Part_Number" "TBD62083AFWG(Z,EHZ" (at 194.31 916.84 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "13" (uuid a0fb50ae-4df3-41f1-93e1-2d9afaa4de4d))
+    (pin "1" (uuid e8da45a4-9042-49f3-9c0b-0cb42d8e64cb))
+    (pin "10" (uuid cade4266-81a9-41f3-8025-8551e1f837e4))
     (pin "11" (uuid c74711fb-fee2-4080-b7c3-f256526bf008))
+    (pin "12" (uuid c83175ed-d153-48cf-9f98-7bab9834e1fa))
+    (pin "13" (uuid a0fb50ae-4df3-41f1-93e1-2d9afaa4de4d))
+    (pin "14" (uuid 448e119e-0f5b-4642-b54c-6a3ae8766950))
+    (pin "15" (uuid 8cf67657-0345-4902-aadd-36d6ce6d2a9d))
+    (pin "16" (uuid 4f4174aa-1cbb-4dbe-a99f-2bbcc397f4e3))
+    (pin "17" (uuid b1bd350b-4b17-4b89-b154-3f3852467d21))
+    (pin "18" (uuid 1f132ff8-d062-4ed2-b770-0387c2cb5f6e))
     (pin "2" (uuid 898227ac-19bb-4132-aa4f-955c824556d4))
+    (pin "3" (uuid f2847c08-4c22-42a4-bb40-a9db006707bf))
     (pin "4" (uuid 7ec9bcaa-b018-4c47-a265-509c8f6eef03))
     (pin "5" (uuid 41458935-a791-44b8-bd9e-ef30775ea8fa))
     (pin "6" (uuid de6a5078-9c11-42e2-bc37-31af7ca1a27d))
-    (pin "15" (uuid 8cf67657-0345-4902-aadd-36d6ce6d2a9d))
-    (pin "16" (uuid 4f4174aa-1cbb-4dbe-a99f-2bbcc397f4e3))
-    (pin "9" (uuid 0ee7b118-bec6-4473-afa3-fc0eec98f4d9))
-    (pin "14" (uuid 448e119e-0f5b-4642-b54c-6a3ae8766950))
-    (pin "3" (uuid f2847c08-4c22-42a4-bb40-a9db006707bf))
-    (pin "17" (uuid b1bd350b-4b17-4b89-b154-3f3852467d21))
-    (pin "12" (uuid c83175ed-d153-48cf-9f98-7bab9834e1fa))
-    (pin "8" (uuid 478e3b52-0860-49f8-91fa-032f8401bc39))
-    (pin "10" (uuid cade4266-81a9-41f3-8025-8551e1f837e4))
-    (pin "18" (uuid 1f132ff8-d062-4ed2-b770-0387c2cb5f6e))
     (pin "7" (uuid 47c85ceb-73df-402e-8634-0b769f913bba))
-    (pin "1" (uuid e8da45a4-9042-49f3-9c0b-0cb42d8e64cb))
+    (pin "8" (uuid 478e3b52-0860-49f8-91fa-032f8401bc39))
+    (pin "9" (uuid 0ee7b118-bec6-4473-afa3-fc0eec98f4d9))
     (instances
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84"
