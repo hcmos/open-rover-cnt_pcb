@@ -891,8 +891,8 @@
     (property "Datasheet" "~" (at 101.6 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8b75e204-feba-4b9d-a8d5-37ef98d92fa4))
-    (pin "2" (uuid 32dbf2d1-8d6e-44ec-8416-231e37ae0501))
+    (pin "1" (uuid 4544cf42-386b-4643-a8f1-202ebfc10d73))
+    (pin "2" (uuid 92f9baa9-923a-4767-a575-31d81695a015))
     (instances
       (project "RDC_Humanoid_Logic"
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/2ffb334c-541d-4787-8f08-8f2b280267fd"
@@ -925,7 +925,7 @@
     (property "Datasheet" "" (at 73.66 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7fe00ff5-8bd7-43f3-b6b6-df69fec33b13))
+    (pin "1" (uuid ea8093d9-2556-441c-88be-bc9ba87cbc88))
     (instances
       (project "RDC_Humanoid_Logic"
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/2ffb334c-541d-4787-8f08-8f2b280267fd"
@@ -958,8 +958,8 @@
     (property "Datasheet" "~" (at 189.23 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 034801fd-924c-4da8-9fa4-d2d1afcd2d18))
-    (pin "2" (uuid 5778e039-5bef-421d-b94d-563a10cc8bdb))
+    (pin "1" (uuid 8ca1187c-b52b-4dfd-a776-1630db89823b))
+    (pin "2" (uuid 37313327-cf69-4035-8126-37cf71173205))
     (instances
       (project "RDC_Humanoid_Logic"
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/2ffb334c-541d-4787-8f08-8f2b280267fd"
@@ -992,8 +992,8 @@
     (property "Datasheet" "~" (at 110.49 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 14f39e64-bdba-4993-addc-cf905a5bc2ed))
-    (pin "2" (uuid c6a7b1ba-3c32-409c-b0ef-bef5df38417d))
+    (pin "1" (uuid 56b4f0cc-c47c-4128-b250-d6eb6908ad0b))
+    (pin "2" (uuid 336615e9-5556-48f5-b6ed-ae2c80d32777))
     (instances
       (project "RDC_Humanoid_Logic"
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/2ffb334c-541d-4787-8f08-8f2b280267fd"
@@ -1026,8 +1026,8 @@
     (property "Datasheet" "~" (at 105.41 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 15ae8ff1-ddbc-47a8-ba28-a028375651e7))
-    (pin "2" (uuid 72dd2a8e-4a32-49e2-8754-af0f5a687f47))
+    (pin "1" (uuid db4c36ac-539b-4d39-a1cb-ffc5a82bb410))
+    (pin "2" (uuid a9e76bd7-e025-42f4-bb6c-cff456a207ed))
     (instances
       (project "RDC_Humanoid_Logic"
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/2ffb334c-541d-4787-8f08-8f2b280267fd"
@@ -1060,8 +1060,8 @@
     (property "Datasheet" "~" (at 168.91 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4005f6b0-da83-4aa5-a7cb-d02205bb146a))
-    (pin "2" (uuid 1897ec92-47f3-4965-bb61-e91e294cfab6))
+    (pin "1" (uuid fcc5a933-a65d-4b71-8ccc-68b73a2710d2))
+    (pin "2" (uuid d1f7d8ab-14fc-49e6-a67e-4d68364cd843))
     (instances
       (project "RDC_Humanoid_Logic"
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/2ffb334c-541d-4787-8f08-8f2b280267fd"
@@ -1094,8 +1094,8 @@
     (property "Datasheet" "~" (at 81.28 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d96ed6c4-79f5-4261-b976-204386dcc2bf))
-    (pin "2" (uuid ced29b99-1089-49e7-8e5c-8ea7e1d337de))
+    (pin "1" (uuid 8d303396-e21c-4270-8aa8-d5c556c10642))
+    (pin "2" (uuid 3c5a6562-f144-481f-9722-51a3be5509bd))
     (instances
       (project "RDC_Humanoid_Logic"
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/2ffb334c-541d-4787-8f08-8f2b280267fd"
@@ -1128,7 +1128,7 @@
     (property "Datasheet" "" (at 74.93 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b37714d0-0d96-4029-bb88-4dad55402473))
+    (pin "1" (uuid c415c96c-9730-4969-be29-6cb47c2f2d25))
     (instances
       (project "RDC_Humanoid_Logic"
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/2ffb334c-541d-4787-8f08-8f2b280267fd"
@@ -1161,8 +1161,8 @@
     (property "Datasheet" "~" (at 176.53 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 94ea3253-de03-48bb-ae97-b211b866fff2))
-    (pin "2" (uuid ce63c147-208c-4d7d-ab59-e0e2da1f6fbe))
+    (pin "1" (uuid f13bfdf9-fd3a-442c-bb59-996a45da5878))
+    (pin "2" (uuid e09ea262-36c2-4e2c-b654-81e2c2e962e2))
     (instances
       (project "RDC_Humanoid_Logic"
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/2ffb334c-541d-4787-8f08-8f2b280267fd"
@@ -1195,7 +1195,7 @@
     (property "Datasheet" "" (at 168.91 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a7c05749-08fc-461a-a34b-e2574271f11c))
+    (pin "1" (uuid d695faaa-336d-46a2-b31d-051daa153934))
     (instances
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84/9c1fd94d-8d77-4c45-be6e-46f605b5b044"
@@ -1220,8 +1220,8 @@
     (property "Datasheet" "~" (at 172.72 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 66306af8-2c9a-4df5-a07f-0f2f0f170cd7))
-    (pin "2" (uuid 3716fc64-0c84-43ca-bb47-c086729bb28e))
+    (pin "1" (uuid c24c5494-ac1e-43a5-8aa6-c637e36b3b9c))
+    (pin "2" (uuid 2a6e03b9-4f41-499e-8ac5-e4b9aec97810))
     (instances
       (project "RDC_Humanoid_Logic"
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/2ffb334c-541d-4787-8f08-8f2b280267fd"
@@ -1254,7 +1254,7 @@
     (property "Datasheet" "" (at 110.49 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5ea1871a-3e83-42e4-b9dc-dae68bc282f8))
+    (pin "1" (uuid 3c3fa4b9-85a1-4782-bbb4-d2e4b1e1ae21))
     (instances
       (project "RDC_Humanoid_Logic"
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/2ffb334c-541d-4787-8f08-8f2b280267fd"
@@ -1287,8 +1287,8 @@
     (property "Datasheet" "~" (at 80.01 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1be3124a-aaf7-4abb-81f3-e485c29f11dd))
-    (pin "2" (uuid a3be9727-5842-4db8-bb50-847c3bb5c959))
+    (pin "1" (uuid 8ac02296-fdf1-4374-8b36-a7f988da8674))
+    (pin "2" (uuid dc573c68-879d-4b3e-9ca3-96d4b25fe744))
     (instances
       (project "RDC_Humanoid_Logic"
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/2ffb334c-541d-4787-8f08-8f2b280267fd"
@@ -1321,8 +1321,8 @@
     (property "Datasheet" "~" (at 180.34 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ca574f3e-71f9-41cd-b196-6876a0939c17))
-    (pin "2" (uuid bf543809-5509-47a8-905f-407ba63ef514))
+    (pin "1" (uuid 69072163-fa9c-40be-994d-e0f8554adfb1))
+    (pin "2" (uuid 67145f16-49cb-4d3c-b196-5fb95170a9f6))
     (instances
       (project "RDC_Humanoid_Logic"
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/2ffb334c-541d-4787-8f08-8f2b280267fd"
@@ -1355,8 +1355,8 @@
     (property "Datasheet" "~" (at 109.22 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d6fd98ab-dbe1-4e79-8db4-0d2363fba312))
-    (pin "2" (uuid ccfdebe3-902f-46b6-8c1e-9bf0505689d8))
+    (pin "1" (uuid 7f6a3507-934e-457a-9d4a-3da98a84c8c7))
+    (pin "2" (uuid 217472e5-15d6-4683-b632-5d5b6be8bcd6))
     (instances
       (project "RDC_Humanoid_Logic"
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/2ffb334c-541d-4787-8f08-8f2b280267fd"
@@ -1389,8 +1389,8 @@
     (property "Datasheet" "~" (at 198.12 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4e382ce4-5207-4d28-8e77-76fbfdb7c792))
-    (pin "2" (uuid 49fade20-e947-4e4f-8d24-6a07f4a34793))
+    (pin "1" (uuid 6fe45eae-ad11-482c-975c-9b73e33a8cba))
+    (pin "2" (uuid 8bd4aafe-9665-4828-ab4c-d669f158a97c))
     (instances
       (project "RDC_Humanoid_Logic"
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/2ffb334c-541d-4787-8f08-8f2b280267fd"
@@ -1423,8 +1423,8 @@
     (property "Datasheet" "~" (at 91.44 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0d58bf1d-e00f-464c-9b41-4420c1d83fca))
-    (pin "2" (uuid 02debef3-711c-4d38-8943-9c722103d1b0))
+    (pin "1" (uuid a3624bc7-e8f5-4cb6-a327-1aa89f117ef3))
+    (pin "2" (uuid 37342589-a0ae-4f7b-a76f-ac573f114fb6))
     (instances
       (project "RDC_Humanoid_Logic"
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/2ffb334c-541d-4787-8f08-8f2b280267fd"
@@ -1472,26 +1472,26 @@
     (property "Manufacturer_Part_Number" "ISOW1044BDFMR" (at 154.94 862.23 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid 4e156400-1053-4b92-aff6-4e70e6e23339))
-    (pin "10" (uuid 635f3b47-87c9-4ed1-a216-2fea3e2a4235))
-    (pin "11" (uuid d89f979d-968f-4a78-abc9-aa70ffdbcec7))
-    (pin "12" (uuid 85eca566-ed8e-4543-9eba-826ad192bac6))
-    (pin "13" (uuid 807cbcce-5c5b-4d38-abe9-684a3a401357))
-    (pin "14" (uuid f0a7a9a8-d83d-4186-8184-d40f6809c6e8))
-    (pin "15" (uuid 1c2304f6-552a-40e8-9e2b-8ead7346ea8c))
-    (pin "16" (uuid c0bf1593-8143-4569-b0d4-ccfadad72f22))
-    (pin "17" (uuid 4e3ca4a9-27eb-4930-98d5-a07cf1119ca4))
-    (pin "18" (uuid 0be146cf-52b0-4306-b606-5c2544366fe3))
-    (pin "19" (uuid 73a1b069-e9da-4995-b90a-fc7f584d6e0c))
-    (pin "2" (uuid c880f920-220c-447f-92c6-2224b9603150))
-    (pin "20" (uuid f3781f3b-df96-4558-9ad3-90b70e6c825e))
-    (pin "3" (uuid 1e5b6878-64c6-4414-a9e3-e117131c413e))
-    (pin "4" (uuid 327e1dec-caaf-49ca-9b9a-f3d2d712e05d))
-    (pin "5" (uuid 7914f74a-6c45-41e7-9c18-08909b3c2fd3))
-    (pin "6" (uuid 6bc93e2b-380f-4712-bb45-c04ea9fecf55))
-    (pin "7" (uuid e9af68af-3d9c-4234-a8d9-df25ec29773d))
-    (pin "8" (uuid 0a328923-55a2-4eec-9e87-9c37d91f220b))
-    (pin "9" (uuid ba67b831-e3c4-4c98-a031-7a9d2cb2bb13))
+    (pin "1" (uuid 530bfae5-4f1c-4d74-a878-c8fef2199690))
+    (pin "10" (uuid 5d67203f-8a7a-4aa7-81d2-d07477bdead0))
+    (pin "11" (uuid 2e305883-cac6-44cc-9e47-fd794f02eccd))
+    (pin "12" (uuid 3daaf32d-4952-494a-afc8-471dacbef3d1))
+    (pin "13" (uuid 55a3ae3b-ae53-4a40-aa5c-0516449abc10))
+    (pin "14" (uuid 2bac72b1-49d0-455f-bf06-78d6e99989de))
+    (pin "15" (uuid 79dfdb24-d232-4c0d-90b5-1761b4a962a1))
+    (pin "16" (uuid 270d8284-7ec3-4905-aaee-114a0bcfa5d8))
+    (pin "17" (uuid 44b45621-af6a-41af-bbf5-9b48a19ce241))
+    (pin "18" (uuid 75197f31-52e0-4eec-96d5-ad2a45030933))
+    (pin "19" (uuid 3bb0e1a8-9f76-4eb9-a2d0-7a1115b5d276))
+    (pin "2" (uuid 02116d67-5ecc-4fc8-a284-1a85daa8db2d))
+    (pin "20" (uuid 06d7df40-607c-46de-9264-fb1faac71de2))
+    (pin "3" (uuid 62c8835c-8622-4691-b321-417bea60f003))
+    (pin "4" (uuid 4900126e-384a-4e47-b373-cd4ea893fe8d))
+    (pin "5" (uuid 5f8598b7-1319-4815-900d-9a4fff941e94))
+    (pin "6" (uuid 341ca6df-12fc-4ea0-bdfc-fb2e06b625c4))
+    (pin "7" (uuid cf60cb15-e41b-48e3-a3c5-f1267846bc0d))
+    (pin "8" (uuid 4ca10118-3e20-469b-9b09-7d301db15a8b))
+    (pin "9" (uuid 70199c91-4ea3-4334-b90d-6228e4a2f1c9))
     (instances
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84/9c1fd94d-8d77-4c45-be6e-46f605b5b044"
@@ -1516,8 +1516,8 @@
     (property "Datasheet" "~" (at 198.12 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 98d5a225-27ff-4061-bb77-ad9b863ac20c))
-    (pin "2" (uuid d817dbeb-d1c1-4366-80e9-bdafc0d50c8f))
+    (pin "1" (uuid c9f1de45-9b21-43d3-8eb0-a591396b2d11))
+    (pin "2" (uuid 9845df82-73e9-4c74-8658-06ec3d79af84))
     (instances
       (project "RDC_Humanoid_Logic"
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/2ffb334c-541d-4787-8f08-8f2b280267fd"
@@ -1550,8 +1550,8 @@
     (property "Datasheet" "~" (at 93.98 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b965d8a7-0a46-484d-9f52-32b0d30e478b))
-    (pin "2" (uuid da6a2bfa-0cc5-4e2e-8888-10fe2086d1b6))
+    (pin "1" (uuid 873204dc-65b0-43fd-93ea-d01a79866724))
+    (pin "2" (uuid 7a99f620-90ca-42e9-868e-dc49bd3815e4))
     (instances
       (project "RDC_Humanoid_Logic"
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/2ffb334c-541d-4787-8f08-8f2b280267fd"
@@ -1584,7 +1584,7 @@
     (property "Datasheet" "" (at 204.47 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6e30ce48-3754-4103-a1e1-e25861b4d70b))
+    (pin "1" (uuid ff4d2e97-72d5-4a53-bf8e-1e9aace3a95c))
     (instances
       (project "tsukuba_challenge"
         (path "/55f88ae9-9831-47be-a185-734020e38c84/9c1fd94d-8d77-4c45-be6e-46f605b5b044"
