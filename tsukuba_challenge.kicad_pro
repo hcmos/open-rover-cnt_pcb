@@ -142,7 +142,7 @@
         "min_through_hole_diameter": 0.15,
         "min_track_width": 0.16,
         "min_via_annular_width": 0.075,
-        "min_via_diameter": 0.25,
+        "min_via_diameter": 0.39999999999999997,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.005,
@@ -200,8 +200,8 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.3,
-          "drill": 0.15
+          "diameter": 0.45,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -511,7 +511,7 @@
     ],
     [
       "354045fa-61d2-4ee4-8c18-9b97f7bf46c2",
-      "STM32F103"
+      "STM32F302"
     ],
     [
       "e06149c2-c1e9-4f0e-85ba-d98bc223faee",
